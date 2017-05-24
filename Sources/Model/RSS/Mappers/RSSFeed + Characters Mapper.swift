@@ -182,6 +182,11 @@ extension RSSFeed {
         case .RSSChannelItemItunesSummary:                self.items?.last?.iTunes?.iTunesSummary           = self.items?.last?.iTunes?.iTunesSummary?.appending(string) ?? string
         case .RSSChannelItemItunesKeywords:               self.items?.last?.iTunes?.iTunesKeywords          = self.items?.last?.iTunes?.iTunesKeywords?.appending(string) ?? string
 
+            
+            // Media
+            
+        case .RSSChannelItemMediaThumbnail: break
+            
         }
         
         

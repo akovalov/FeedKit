@@ -243,4 +243,6 @@ open class RSSFeedItem {
 
      */
     open var iTunes: ITunesNamespace?
+    
+    open var media: RSSFeedItemMedia?
 }

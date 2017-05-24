@@ -235,6 +235,14 @@ extension RSSFeed {
                 break
             }
             
+        case
+        .RSSChannelItemMediaThumbnail:
+            
+            if items?.last?.media == nil {
+                items?.last?.media = RSSFeedItemMedia()
+            }
+            items?.last?.media?.fill(withAttributes: attributeDict, forPath: path)
+            
         default: break
             
             
