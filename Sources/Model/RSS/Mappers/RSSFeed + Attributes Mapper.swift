@@ -236,6 +236,7 @@ extension RSSFeed {
             }
             
         case
+        .RSSChannelItemMediaContent,
         .RSSChannelItemMediaThumbnail:
             
             if items?.last?.media == nil {

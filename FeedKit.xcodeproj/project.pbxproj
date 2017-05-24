@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D7BA3861ED591BA001FCAD4 /* RSSFeedItemMediaContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BA3851ED591BA001FCAD4 /* RSSFeedItemMediaContent.swift */; };
+		9D7BA3871ED591C3001FCAD4 /* RSSFeedItemMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA52BB21ED5793C009CC710 /* RSSFeedItemMedia.swift */; };
+		9D7BA3881ED591C3001FCAD4 /* RSSFeedItemMediaThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA52BB41ED57955009CC710 /* RSSFeedItemMediaThumbnail.swift */; };
+		9D7BA3891ED591C3001FCAD4 /* RSSFeedItemMediaContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BA3851ED591BA001FCAD4 /* RSSFeedItemMediaContent.swift */; };
+		9D7BA38A1ED591C4001FCAD4 /* RSSFeedItemMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA52BB21ED5793C009CC710 /* RSSFeedItemMedia.swift */; };
+		9D7BA38B1ED591C4001FCAD4 /* RSSFeedItemMediaThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA52BB41ED57955009CC710 /* RSSFeedItemMediaThumbnail.swift */; };
+		9D7BA38C1ED591C4001FCAD4 /* RSSFeedItemMediaContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BA3851ED591BA001FCAD4 /* RSSFeedItemMediaContent.swift */; };
+		9D7BA38D1ED591C4001FCAD4 /* RSSFeedItemMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA52BB21ED5793C009CC710 /* RSSFeedItemMedia.swift */; };
+		9D7BA38E1ED591C4001FCAD4 /* RSSFeedItemMediaThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA52BB41ED57955009CC710 /* RSSFeedItemMediaThumbnail.swift */; };
+		9D7BA38F1ED591C4001FCAD4 /* RSSFeedItemMediaContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BA3851ED591BA001FCAD4 /* RSSFeedItemMediaContent.swift */; };
 		9DA52BB31ED5793C009CC710 /* RSSFeedItemMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA52BB21ED5793C009CC710 /* RSSFeedItemMedia.swift */; };
 		9DA52BB51ED57955009CC710 /* RSSFeedItemMediaThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA52BB41ED57955009CC710 /* RSSFeedItemMediaThumbnail.swift */; };
 		A00BEBD51D0F3E1200F8AEFA /* ISO8601DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BEBD41D0F3E1200F8AEFA /* ISO8601DateFormatter.swift */; };
@@ -383,6 +393,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9D7BA3851ED591BA001FCAD4 /* RSSFeedItemMediaContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSFeedItemMediaContent.swift; sourceTree = "<group>"; };
 		9DA52BB21ED5793C009CC710 /* RSSFeedItemMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSFeedItemMedia.swift; sourceTree = "<group>"; };
 		9DA52BB41ED57955009CC710 /* RSSFeedItemMediaThumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSFeedItemMediaThumbnail.swift; sourceTree = "<group>"; };
 		A00BEBD41D0F3E1200F8AEFA /* ISO8601DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ISO8601DateFormatter.swift; path = Sources/Dates/ISO8601DateFormatter.swift; sourceTree = "<group>"; };
@@ -578,6 +589,7 @@
 			children = (
 				9DA52BB21ED5793C009CC710 /* RSSFeedItemMedia.swift */,
 				9DA52BB41ED57955009CC710 /* RSSFeedItemMediaThumbnail.swift */,
+				9D7BA3851ED591BA001FCAD4 /* RSSFeedItemMediaContent.swift */,
 			);
 			path = Media;
 			sourceTree = "<group>";
@@ -1281,6 +1293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A07F3C201CFE136900C3AF80 /* String + bool.swift in Sources */,
+				9D7BA38E1ED591C4001FCAD4 /* RSSFeedItemMediaThumbnail.swift in Sources */,
 				A0FF62841D0F52930082EA0A /* ISO8601DateFormatter.swift in Sources */,
 				A07F3C1C1CFE136900C3AF80 /* Result.swift in Sources */,
 				A07F3CD41CFE136900C3AF80 /* RSSFeedTextInput.swift in Sources */,
@@ -1320,7 +1333,9 @@
 				A07F3C681CFE136900C3AF80 /* AtomFeed + Characters Mapper.swift in Sources */,
 				A07F3C2C1CFE136900C3AF80 /* AtomFeedCategory.swift in Sources */,
 				B5993FFA1E40AEB800949FB6 /* String + toDuration.swift in Sources */,
+				9D7BA38F1ED591C4001FCAD4 /* RSSFeedItemMediaContent.swift in Sources */,
 				A07F3C9C1CFE136900C3AF80 /* SyndicationNamespace.swift in Sources */,
+				9D7BA38D1ED591C4001FCAD4 /* RSSFeedItemMedia.swift in Sources */,
 				A07F3C281CFE136900C3AF80 /* AtomFeedAuthor.swift in Sources */,
 				A0AA54761D02C096000A2264 /* ParserError.swift in Sources */,
 				B533B1F71E3945BE0094B758 /* iTunesNamespace.swift in Sources */,
@@ -1424,6 +1439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A07F3C1E1CFE136900C3AF80 /* String + bool.swift in Sources */,
+				9D7BA3881ED591C3001FCAD4 /* RSSFeedItemMediaThumbnail.swift in Sources */,
 				A0FF62861D0F52930082EA0A /* ISO8601DateFormatter.swift in Sources */,
 				A07F3C1A1CFE136900C3AF80 /* Result.swift in Sources */,
 				A07F3CD21CFE136900C3AF80 /* RSSFeedTextInput.swift in Sources */,
@@ -1463,7 +1479,9 @@
 				A07F3C661CFE136900C3AF80 /* AtomFeed + Characters Mapper.swift in Sources */,
 				A07F3C2A1CFE136900C3AF80 /* AtomFeedCategory.swift in Sources */,
 				B5993FF81E40AEB700949FB6 /* String + toDuration.swift in Sources */,
+				9D7BA3891ED591C3001FCAD4 /* RSSFeedItemMediaContent.swift in Sources */,
 				A07F3C9A1CFE136900C3AF80 /* SyndicationNamespace.swift in Sources */,
+				9D7BA3871ED591C3001FCAD4 /* RSSFeedItemMedia.swift in Sources */,
 				A07F3C261CFE136900C3AF80 /* AtomFeedAuthor.swift in Sources */,
 				A0AA54741D02C095000A2264 /* ParserError.swift in Sources */,
 				B533B1F11E3945BD0094B758 /* iTunesNamespace.swift in Sources */,
@@ -1483,6 +1501,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A07F3C1F1CFE136900C3AF80 /* String + bool.swift in Sources */,
+				9D7BA38B1ED591C4001FCAD4 /* RSSFeedItemMediaThumbnail.swift in Sources */,
 				A0FF62851D0F52930082EA0A /* ISO8601DateFormatter.swift in Sources */,
 				A07F3C1B1CFE136900C3AF80 /* Result.swift in Sources */,
 				A07F3CD31CFE136900C3AF80 /* RSSFeedTextInput.swift in Sources */,
@@ -1522,7 +1541,9 @@
 				A07F3C671CFE136900C3AF80 /* AtomFeed + Characters Mapper.swift in Sources */,
 				A07F3C2B1CFE136900C3AF80 /* AtomFeedCategory.swift in Sources */,
 				B5993FF91E40AEB800949FB6 /* String + toDuration.swift in Sources */,
+				9D7BA38C1ED591C4001FCAD4 /* RSSFeedItemMediaContent.swift in Sources */,
 				A07F3C9B1CFE136900C3AF80 /* SyndicationNamespace.swift in Sources */,
+				9D7BA38A1ED591C4001FCAD4 /* RSSFeedItemMedia.swift in Sources */,
 				A07F3C271CFE136900C3AF80 /* AtomFeedAuthor.swift in Sources */,
 				A0AA54751D02C096000A2264 /* ParserError.swift in Sources */,
 				B533B1F41E3945BD0094B758 /* iTunesNamespace.swift in Sources */,
@@ -1582,6 +1603,7 @@
 				A07F3C311CFE136900C3AF80 /* AtomFeedEntry.swift in Sources */,
 				A07F3CC51CFE136900C3AF80 /* RSSFeedItemSource.swift in Sources */,
 				A07F3C491CFE136900C3AF80 /* AtomFeedEntrySource.swift in Sources */,
+				9D7BA3861ED591BA001FCAD4 /* RSSFeedItemMediaContent.swift in Sources */,
 				A07F3C651CFE136900C3AF80 /* AtomFeed + Characters Mapper.swift in Sources */,
 				9DA52BB31ED5793C009CC710 /* RSSFeedItemMedia.swift in Sources */,
 				A07F3C291CFE136900C3AF80 /* AtomFeedCategory.swift in Sources */,

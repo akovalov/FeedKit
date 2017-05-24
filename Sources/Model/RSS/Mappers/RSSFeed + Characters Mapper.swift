@@ -185,6 +185,7 @@ extension RSSFeed {
             
             // Media
             
+        case .RSSChannelItemMediaContent: break
         case .RSSChannelItemMediaThumbnail: break
             
         }

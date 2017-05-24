@@ -152,5 +152,6 @@ enum RSSPath: String {
     
     // Media http://www.rssboard.org/media-rss
     
+    case RSSChannelItemMediaContent             = "/rss/channel/item/media:content"
     case RSSChannelItemMediaThumbnail           = "/rss/channel/item/media:thumbnail"
 }

@@ -25,7 +25,8 @@
 import UIKit
 import FeedKit
 
-let feedURL = URL(string: "https://feeds.bbci.co.uk/news/rss.xml")!
+//let feedURL = URL(string: "https://feeds.bbci.co.uk/news/rss.xml")! // with media://thumbnail
+let feedURL = URL(string: "http://feeds.etonline.com/ETMusic")! // with media:content
 
 class FeedTableViewController: UITableViewController {
     
